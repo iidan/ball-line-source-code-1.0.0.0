@@ -3,10 +3,11 @@ import 'phaser';
 import MainScene from './scenes/PlayScene';
 import Preloader from './scenes/Preloader';
 
-const config:GameConfig = {
+const config = {
     type: Phaser.AUTO,
-    resolution: 1, 
+    antialias: true,
     backgroundColor: "#282828",
+    
     scene: [
       Preloader,
       MainScene
