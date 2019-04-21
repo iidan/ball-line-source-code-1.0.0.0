@@ -5,7 +5,7 @@ import Preloader from './scenes/Preloader';
 
 const config = {
     type: Phaser.AUTO,
-    antialias: true,
+    resolution: 1, 
     backgroundColor: "#282828",
     
     scene: [
